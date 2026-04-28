@@ -104,7 +104,7 @@ export default function BuilderPage() {
           <select
             value={selectedTemplate}
             onChange={e => setTemplate(e.target.value)}
-            className="bg-white/5 border border-white/15 text-white/70 text-xs rounded-lg px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-brand-500"
+            style={{backgroundColor:"#1a1a2e",color:"rgba(255,255,255,0.8)"}} className="border border-white/15 text-xs rounded-lg px-3 py-1.5 focus:outline-none cursor-pointer"
           >
             <option value="modern">Modern Template</option>
             <option value="classic">Classic Template</option>
