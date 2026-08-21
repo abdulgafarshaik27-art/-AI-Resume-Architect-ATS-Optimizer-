@@ -13,7 +13,7 @@ import CoverLetterModal from '../components/Resume/CoverLetterModal'
 export default function BuilderPage() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const { user } = useAuthStore()
+  const { user } = useAuthStore() 
 
   const {
     resumeTitle, setResumeTitle, resumeData, isSaving, saveResume,
